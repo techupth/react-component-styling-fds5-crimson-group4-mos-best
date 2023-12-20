@@ -1,3 +1,7 @@
 // Start coding here
 
-function Button() {}
+function Button({ type }) {
+  return <button className={`button ${type}`}>Button</button>;
+}
+
+export default Button;
