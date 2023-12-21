@@ -39,3 +39,50 @@
 .read-the-docs {
   color: #888;
 }
+
+.button {
+  display: flex;
+  width: 171.19px;
+  height: 50px;
+  padding: 0px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  color: #fff;
+  margin: 5px;
+}
+.button.primary {
+  background: var(--Primary, #074ee8);
+}
+.button.secondary {
+  background: #07a4e8;
+}
+.alert {
+  width: 650px;
+  height: 76px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  color: #444;
+  display: flex;
+  align-items: center;
+  font-family: Kanit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 5px;
+}
+.alert.error {
+  background: #f9c8c8;
+}
+.alert.warning {
+  background: #f9d9c8;
+}
+.alert.info {
+  background: #f9ebc8;
+}
+.alert.success {
+  background: #cef7cd;
+}
